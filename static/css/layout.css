@@ -1,6 +1,10 @@
 * {
 	margin: 0;
 	padding: 0;
+	outline: none;
+	webkit-focus-ring-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
 }
 
 body {
@@ -20,11 +24,11 @@ img {
 p {
 	padding: 0;
 	margin: 0;
-	word-break: break-all;
+	/* word-break: break-all; */
 }
 
 div {
-	word-break: break-all;
+	/* word-break: break-all; */
 }
 
 strong {
@@ -40,13 +44,13 @@ strong {
 }
 
 .page-title h1 {
-	font-size: 100px;
+	font-size:80px;
 	font-family: 'SourceHanSerifCN-Heavy';
 }
 
 .page-title h2 {
 	margin-top: 2vh;
-	font-size: 44px;
+	font-size: 40px;
 	font-family: 'SourceHanSerifCN-Heavy';
 }
 
@@ -56,7 +60,7 @@ strong {
 	min-width: 25%;
 }
 
-.clickImage{
+.clickImage {
 	width: 100%;
 }
 
@@ -84,15 +88,16 @@ strong {
 }
 
 .newTitle {
-	margin: 5vh 0 2vh 0;
+	margin: 2vh 0 2vh 0;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
-.newTitlePc{
-	margin: 5vh 0 2vh 0;
+
+.newTitlePc {
+	margin: 1vh 0 1vh 0;
 	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
@@ -120,7 +125,7 @@ strong {
 .newBtnLayout {
 	/* border-top:1px solid #fff;
 	border-bottom:1px solid #fff; */
-	padding: 3vh 5px;
+	/* padding:2vh 5px; */
 }
 
 .newBtnLayout-shadow {
@@ -136,7 +141,7 @@ strong {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top:1vh;
+	margin-top: 1vh;
 }
 
 .button-link {
@@ -153,12 +158,15 @@ strong {
 	color: #000;
 	background: #fff;
 }
-.button-link{
-	font-size:20px;
+
+.button-link {
+	font-size: 20px;
 }
-.button-link span{
-	font-size:20px;
+
+.button-link span {
+	font-size: 20px;
 }
+
 .text-center {
 	text-align: center;
 }
@@ -198,7 +206,7 @@ strong {
 .abstract-text {
 	font-size: 18px;
 	line-height: 1.8;
-	word-break: break-all;
+	/* word-break: break-all; */
 }
 
 .generated-images-row {
